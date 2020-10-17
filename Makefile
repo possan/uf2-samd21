@@ -1,4 +1,5 @@
 BOARD=zero
+BOARD=peoboards_lora_board_m0_mk2
 -include Makefile.user
 include boards/$(BOARD)/board.mk
 CC=arm-none-eabi-gcc
